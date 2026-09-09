@@ -4,7 +4,7 @@ A Spring Boot REST API application for managing training courses and employee en
 
 ## Technologies Used
 
-* Java 17
+* Java 21
 * Spring Boot
 * Spring Web
 * Spring Validation
@@ -163,7 +163,7 @@ POST http://localhost:8080/courses
 ```json
 {
     "courseName": "Java Backend",
-    "trainerName": "Rahul Sharma",
+    "trainerName": "Ratan",
     "durationInDays": 30,
     "maxCapacity": 3,
     "fees": 15000
@@ -181,7 +181,7 @@ POST http://localhost:8080/enrollments
 ```json
 {
     "employeeId": 101,
-    "employeeName": "Ratan",
+    "employeeName": "Vinay L R",
     "courseId": 1
 }
 ```
