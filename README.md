@@ -31,7 +31,6 @@ Map<Integer, Course>
 Map<Integer, Enrollment>
 ```
 
-> Note: Since data is stored in memory, all data will be lost when the application is restarted.
 
 ## Project Structure
 
@@ -166,7 +165,7 @@ POST http://localhost:8080/courses
     "trainerName": "Ratan",
     "durationInDays": 30,
     "maxCapacity": 3,
-    "fees": 15000
+    "fees": 85000
 }
 ```
 
@@ -213,17 +212,8 @@ Application URL:
 http://localhost:8080
 ```
 
-## API Testing
-
-The APIs can be tested using Postman.
-
-The project includes a Postman collection:
-
-```text
-HDFC-Learning-Academy.postman_collection.json
-```
 
 ## Author
 
-**Vinay L.R**
+**Vinay L R**
 
